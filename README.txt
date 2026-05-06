@@ -6,7 +6,7 @@ Tecnicatura Superior en Desarrollo de Software - IFTS N° 29
 
 ---
 
-## 👤 Alumno
+##  Alumno
 
 **Gutiérrez, Sebastián**  
 Comisión: 3°A  
@@ -14,7 +14,7 @@ Fecha: 5 Mayo 2026
 
 ---
 
-## 🔗 Repositorio
+##  Repositorio
 
 [https://github.com/MSebastianGutierrez/pfo2-psr](https://github.com/MSebastianGutierrez/pfo2-psr)
 
