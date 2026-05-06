@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido - Gestión de Tareas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+        }
+        .tarea {
+            border-left: 4px solid #667eea;
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+        .estado {
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 20px;
+            background: #ddd;
+        }
+        .pendiente { background: #ffa502; color: white; }
+        .completada { background: #2ed573; color: white; }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1> Bienvenido al Sistema de Gestión de Tareas</h1>
+    <p> Usuario: <strong>{{ usuario }}</strong></p>
+
+    <h2> Mis tareas</h2>
+    {% if tareas %}
+        {% for t in tareas %}
+        <div class="tarea">
+            <strong>{{ t.titulo }}</strong><br>
+            {{ t.descripcion or 'Sin descripción' }}<br>
+            <span class="estado {{ t.estado }}">{{ t.estado }}</span>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p> No hay tareas aún.</p>
+    {% endif %}
+
+    <footer>
+        ✅ Podés administrar tus tareas desde el cliente en consola: <code>python cliente.py</code>
+    </footer>
+</div>
+</body>
+</html>
