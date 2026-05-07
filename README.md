@@ -64,7 +64,9 @@ python cliente.py
 ### 3. Flujo de uso
 
 Seleccionar **"Registrarse"** y crear un usuario.
+
 Seleccionar **"Iniciar sesión"** con el usuario creado.
+
 Se abrirá automáticamente el navegador con el HTML de bienvenida.
 
 Desde el menú del cliente podrás:
@@ -77,7 +79,9 @@ Desde el menú del cliente podrás:
 ### 4. Ver el HTML de bienvenida manualmente
    
 Si cerraste el navegador, podés volver a entrar en:
+
 http://localhost:5000/tareas?usuario=TU_USUARIO
+
 Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 
 ## Capturas de pantalla
@@ -129,5 +133,7 @@ Hashear contraseñas es fundamental para la seguridad en caso de una filtración
 
 ### Ventajas de usar SQLite en este proyecto
 1. **Simplicidad y cero configuración**: SQLite no requiere la instalación, configuración, ni administración de un motor de base de datos como MySQL o PostgreSQL. Funciona directamente sobre el almacenamiento local.
+   
 2. **Portabilidad**: Toda la base de datos y sus tablas residen en un solo archivo físico (`database.db`), lo que es excelente para prácticas como estas ya que el proyecto completo puede moverse de una computadora a otra sin problema.
+   
 3. **Librería estándar**: Python ya cuenta con el módulo `sqlite3` incluido de fábrica en su librería estandar evitando tener que descargar drivers externos adicionales para conectar la base de datos a la API en Flask.
