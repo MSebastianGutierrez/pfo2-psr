@@ -23,6 +23,7 @@ Fecha: 5 Mayo 2026
 ##  Introducción
 
 Este proyecto implementa una **API REST** con **Flask** para la gestión de tareas.  
+
 Incluye:
 
 - Registro de usuarios con contraseñas hasheadas (SHA-256)
@@ -48,11 +49,13 @@ pip install Flask requests
 ## Instrucciones de ejecución 
 
 ### 1. **Iniciar el servidor**
+
 En una terminal, dentro de la carpeta del proyecto:
 ```bash
 python servidor.py
 ```
 El servidor se ejecutará en http://localhost:5000
+
 La base de datos tareas.db se creará automáticamente.
 
 ### 2. **Ejecuta el cliente en consola**
@@ -87,27 +90,35 @@ Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 ## Capturas de pantalla
 
 ### Menú principal
+
 ![Menú principal](img/menu-principal.jpg)
 
 ### Login incorrecto
+
 ![Login incorrecto](img/login_incorrecto.jpg)
 
 ### Registro exitoso
+
 ![Registro exitoso](img/registro-exitoso.jpg)
 
 ### Login exitoso
+
 ![Login exitoso](img/login-exitoso.jpg)
 
 ### HTML de bienvenida
+
 ![HTML bienvenida](img/html-bienvenida.jpg)
 
 ### Crear tarea
+
 ![Crear tarea](img/crear-tarea.jpg)
 
 ### Ver tareas
+
 ![Ver tareas](img/mis-tarea.jpg)
 
 ### Eliminar tarea
+
 ![Eliminar tarea](img/eliminar-tarea.jpg)
 
 ---
