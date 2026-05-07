@@ -103,10 +103,11 @@ Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 ![Crear tarea](img/crear-tarea.jpg)
 
 ### Ver tareas
-![Ver tareas](img/ver-tareas.jpg)
+![Ver tareas](img/mis-tarea.jpg)
 
 ### Eliminar tarea
 ![Eliminar tarea](img/eliminar-tarea.jpg)
+
 ---
 
 ##  Endpoints de la API
