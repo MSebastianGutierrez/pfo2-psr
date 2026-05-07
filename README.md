@@ -44,7 +44,7 @@ Incluye:
 
 ```bash
 pip install Flask requests
-
+```            
 ## Cómo probar el proyecto
 Primero que nada, hay que tener Python instalado y descargar las librerías necesarias. 
 Abrir una terminal en la carpeta del proyecto y escribimos:
@@ -109,7 +109,7 @@ Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 ![Eliminar tarea](img/eliminar-tarea.jpg)
 ---
 
-## 📎 Endpoints de la API
+##  Endpoints de la API
 
 | Método | Endpoint | Uso | Autenticación |
 |--------|----------|-----|----------------|
