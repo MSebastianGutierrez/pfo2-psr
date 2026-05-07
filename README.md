@@ -60,14 +60,14 @@ Abre otra terminal y ejecuta el cliente para poder interactuar con la API de man
 python cliente.py
 ```
 3. Flujo de uso
-Seleccionar "Registrarse" y crear un usuario
-Seleccionar "Iniciar sesión" con el usuario creado
-Se abrirá automáticamente el navegador con el HTML de bienvenida
+Seleccionar "Registrarse" y crear un usuario.
+Seleccionar "Iniciar sesión" con el usuario creado.
+Se abrirá automáticamente el navegador con el HTML de bienvenida.
 Desde el menú del cliente podrás:
- Ver tareas
- Crear tareas
- Eliminar tareas
- Cerrar sesión
+ Ver tareas.
+ Crear tareas.
+ Eliminar tareas.
+ Cerrar sesión.
 
 4. Ver el HTML de bienvenida manualmente
 Si cerraste el navegador, podés volver a entrar en:
