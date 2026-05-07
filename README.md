@@ -55,7 +55,7 @@ El servidor se ejecutará en http://localhost:5000
 La base de datos tareas.db se creará automáticamente.
 
 2. **Ejecuta el cliente en consola**
-Abri otra terminal y ejecutar el cliente para poder interactuar con la API de manera sencilla:
+Abre otra terminal y ejecuta el cliente para poder interactuar con la API de manera sencilla:
 ```bash
 python cliente.py
 ```
