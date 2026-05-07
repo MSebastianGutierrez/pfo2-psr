@@ -88,7 +88,7 @@ Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 ![Menú principal](img/menu-principal.jpg)
 
 ### Login incorrecto
-![Login exitoso](img/login-incorrecto.jpg)
+![Login incorrecto](img/login_incorrecto.jpg)
 
 ### Registro exitoso
 ![Registro exitoso](img/registro-exitoso.jpg)
