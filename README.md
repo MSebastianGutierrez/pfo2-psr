@@ -1,4 +1,4 @@
-# PFO 2 - Programación sobre Redes
+# PFO 2 GESTIÓN DE TAREAS
 
 **Práctica Formativa Obligatoria N°2**  
 Asignatura: Programación sobre Redes  
