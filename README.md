@@ -46,6 +46,7 @@ Incluye:
 pip install Flask requests
 ```            
 ## Instrucciones de ejecución 
+
 1. **Iniciar el servidor**
 En una terminal, dentro de la carpeta del proyecto:
 ```bash
@@ -55,11 +56,13 @@ El servidor se ejecutará en http://localhost:5000
 La base de datos tareas.db se creará automáticamente.
 
 2. **Ejecuta el cliente en consola**
+   
 Abre otra terminal y ejecuta el cliente para poder interactuar con la API de manera sencilla:
 ```bash
 python cliente.py
 ```
 3. Flujo de uso
+   
 Seleccionar "Registrarse" y crear un usuario.
 Seleccionar "Iniciar sesión" con el usuario creado.
 Se abrirá automáticamente el navegador con el HTML de bienvenida.
@@ -69,9 +72,9 @@ Desde el menú del cliente podrás:
  Eliminar tareas.
  Cerrar sesión.
 
-4. Ver el HTML de bienvenida manualmente
+5. Ver el HTML de bienvenida manualmente
+   
 Si cerraste el navegador, podés volver a entrar en:
-
 http://localhost:5000/tareas?usuario=TU_USUARIO
 Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 
