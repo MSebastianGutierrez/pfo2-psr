@@ -45,13 +45,6 @@ Incluye:
 ```bash
 pip install Flask requests
 ```            
-## Cómo probar el proyecto
-Primero que nada, hay que tener Python instalado y descargar las librerías necesarias. 
-Abrir una terminal en la carpeta del proyecto y escribimos:
-```bash
-pip install Flask Werkzeug requests
-```
-
 ## Instrucciones de ejecución 
 1. **Iniciar el servidor**
 En una terminal, dentro de la carpeta del proyecto:
