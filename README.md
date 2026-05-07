@@ -6,7 +6,7 @@ Tecnicatura Superior en Desarrollo de Software - IFTS N° 29
 
 ---
 
-## 👤 Alumno
+##  Alumno
 
 **Gutiérrez, Sebastián**  
 Comisión: 3°A  
@@ -14,7 +14,7 @@ Fecha: 5 Mayo 2026
 
 ---
 
-## 🔗 Repositorio
+##  Repositorio
 
 [https://github.com/MSebastianGutierrez/pfo2-psr](https://github.com/MSebastianGutierrez/pfo2-psr)
 
@@ -44,7 +44,7 @@ Incluye:
 
 ```bash
 pip install Flask requests
-
+```            
 ## Cómo probar el proyecto
 Primero que nada, hay que tener Python instalado y descargar las librerías necesarias. 
 Abrir una terminal en la carpeta del proyecto y escribimos:
@@ -88,7 +88,7 @@ Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 ![Menú principal](img/menu-principal.jpg)
 
 ### Login incorrecto
-![Login exitoso](img/login-incorrecto.jpg)
+![Login incorrecto](img/login_incorrecto.jpg)
 
 ### Registro exitoso
 ![Registro exitoso](img/registro-exitoso.jpg)
@@ -103,13 +103,14 @@ Ejemplo: http://localhost:5000/tareas?usuario=sebastian
 ![Crear tarea](img/crear-tarea.jpg)
 
 ### Ver tareas
-![Ver tareas](img/ver-tareas.jpg)
+![Ver tareas](img/mis-tarea.jpg)
 
 ### Eliminar tarea
 ![Eliminar tarea](img/eliminar-tarea.jpg)
+
 ---
 
-## 📎 Endpoints de la API
+##  Endpoints de la API
 
 | Método | Endpoint | Uso | Autenticación |
 |--------|----------|-----|----------------|
